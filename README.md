@@ -14,3 +14,4 @@ Then open:
 
 - <http://localhost:8000/mentors/>
 - <http://localhost:8000/interview-support/>
+- <http://localhost:8000/settings/>

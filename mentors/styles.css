@@ -82,6 +82,7 @@ a {
 }
 
 .site-nav {
+  flex-wrap: wrap;
   gap: 8px;
   padding: 6px;
   border: 1px solid var(--line);
