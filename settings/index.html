@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personalize oneighty settings for profile, notifications, privacy, appearance, AI assistant, language, and billing.">
+    <title>Settings | oneighty</title>
+    <link rel="stylesheet" href="../mentors/styles.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/mentors/" aria-label="oneighty home">
+        <span class="brand-mark">180</span>
+        <span>oneighty</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/mentors/">Mentors</a>
+        <a href="/interview-support/">Interview support</a>
+        <a href="/settings/" aria-current="page">Settings</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="settings-hero" aria-labelledby="settings-title">
+        <div class="settings-copy">
+          <p class="eyebrow">Settings</p>
+          <h1 id="settings-title">Make oneighty yours.</h1>
+          <p class="hero-lede">
+            Personal, secure, and tuned to how you learn and build.
+          </p>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile summary">
+          <span class="avatar profile-avatar">AM</span>
+          <div>
+            <h2>Alex Morgan</h2>
+            <p>Student &middot; Lvl 12</p>
+            <p>@alex.morgan &middot; NSBM Green University</p>
+          </div>
+          <div class="completion">
+            <div class="completion-label">
+              <span>Profile completion</span>
+              <strong>84%</strong>
+            </div>
+            <div class="completion-track" aria-hidden="true">
+              <span></span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="settings-shell" aria-label="Account settings">
+        <nav class="settings-nav" aria-label="Settings sections">
+          <a href="#profile" class="active">Profile</a>
+          <a href="#notifications">Notifications</a>
+          <a href="#privacy">Privacy &amp; security</a>
+          <a href="#appearance">Appearance</a>
+          <a href="#ai-assistant">AI assistant</a>
+          <a href="#language">Language &amp; region</a>
+          <a href="#billing">Billing</a>
+        </nav>
+
+        <div class="settings-panels">
+          <article class="setting-panel" id="profile">
+            <div class="setting-icon">P</div>
+            <div>
+              <h2>Profile</h2>
+              <p>Name, photo, university, bio</p>
+            </div>
+            <a href="#">Edit</a>
+          </article>
+
+          <article class="setting-panel" id="notifications">
+            <div class="setting-icon">N</div>
+            <div>
+              <h2>Notifications</h2>
+              <p>Email, push, mentor alerts</p>
+            </div>
+            <a href="#">Manage</a>
+          </article>
+
+          <article class="setting-panel" id="privacy">
+            <div class="setting-icon">S</div>
+            <div>
+              <h2>Privacy &amp; security</h2>
+              <p>2FA, sessions, data export</p>
+            </div>
+            <a href="#">Secure</a>
+          </article>
+
+          <article class="setting-panel" id="appearance">
+            <div class="setting-icon">A</div>
+            <div>
+              <h2>Appearance</h2>
+              <p>Theme, accent, density</p>
+            </div>
+            <a href="#">Customize</a>
+          </article>
+
+          <article class="setting-panel" id="ai-assistant">
+            <div class="setting-icon">AI</div>
+            <div>
+              <h2>AI assistant</h2>
+              <p>Memory, sources, suggestions</p>
+            </div>
+            <a href="#">Tune</a>
+          </article>
+
+          <article class="setting-panel" id="language">
+            <div class="setting-icon">L</div>
+            <div>
+              <h2>Language &amp; region</h2>
+              <p>English (LK), timezone</p>
+            </div>
+            <a href="#">Update</a>
+          </article>
+
+          <article class="setting-panel" id="billing">
+            <div class="setting-icon">B</div>
+            <div>
+              <h2>Billing</h2>
+              <p>Plan, invoices, payment methods</p>
+            </div>
+            <a href="#">View</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <button class="ask-ai" type="button">Ask AI</button>
+  </body>
+</html>
